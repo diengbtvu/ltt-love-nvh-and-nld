@@ -1,0 +1,109 @@
+
+/* Đặt lại một số thuộc tính cơ bản cho toàn bộ trang */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cấu hình font chữ và màu sắc nền */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Định dạng header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tạo khoảng cách cho các phần chính */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Định dạng cho nút nhấn */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng hover cho nút */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Định dạng cho phần hướng dẫn */
+#instructions {
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#instructions h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#instructions h3 {
+    color: #4CAF50;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#instructions ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#instructions ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#instructions code {
+    background-color: #f1f1f1;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+/* Cải thiện responsiveness cho thiết bị di động */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #instructions {
+        padding: 15px;
+    }
+
+    #instructions h2, #instructions h3 {
+        font-size: 18px;
+    }
+}
